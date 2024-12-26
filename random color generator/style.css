@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.box{
+    height: 280px;
+    width: 260px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    background-color: lightseagreen;
+    border-radius: 8px;
+    font-size: large;
+}
+button:active{
+    scale: 0.9;
+}
+
