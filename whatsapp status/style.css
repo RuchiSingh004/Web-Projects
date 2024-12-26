@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(125, 124, 124);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    height: 450px;
+    width: 330px;
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    /* padding: 15px; */
+    /* overflow: auto; */
+    position: relative;
+}
+
+.card h2{
+    font-size: 24px;
+    color: white;
+    padding: 15px;
+    
+}
+.whatstatus{
+    height: 85%;
+    overflow: auto;
+}
+.whatstatus::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    padding: 10px 20px;
+}
+
+.status img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid green;
+    pointer-events: none;
+}
+.status-in{
+    pointer-events: none;
+}
+
+.status h4 {
+    color: white;
+    /* pointer-events: none; */
+}
+
+.status h5 {
+    color: gray;
+    /* pointer-events: none; */
+}
+#full{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    display: none;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#full .progress{
+    width: 100%;
+    height: 4px;
+    border-radius: 50px;
+    background-color: rgb(199, 198, 198);
+}
+#full .growth{
+    height: 100%;
+    width: 0;
+    background-color: rgba(255, 255, 255, 0.696);
+    border-radius: 50px;
+    
+}
+.inner h4{
+    font-size: 16px;
+    /* margin-top: 10px; */
+    font-weight: 500;
+    color: white;
+}
+.inner h5{
+    color: white;
+     
+}
+
+.inner img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;   
+}
+#full .inner{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
