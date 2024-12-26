@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/519/944/original/vector-park-scene-with-green-field.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+ 
+ img{
+    height: 240px;
+    position: absolute;
+}
